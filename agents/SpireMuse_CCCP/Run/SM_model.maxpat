@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 2,
+			"minor" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -157,8 +157,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -203,8 +203,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -938,8 +938,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2182,8 +2182,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2217,7 +2217,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-210",
@@ -2229,8 +2228,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2543,13 +2542,13 @@
 												"name" : "AudioStatus_Menu",
 												"default" : 												{
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 														"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "color"
 													}
 
 												}
@@ -2561,12 +2560,12 @@
 												"name" : "Audiomix",
 												"default" : 												{
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
-														"proportion" : 0.39
+														"proportion" : 0.39,
+														"type" : "gradient"
 													}
 
 												}
@@ -2597,13 +2596,13 @@
 												"name" : "messageGreen-1",
 												"default" : 												{
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.165741, 0.364658, 0.14032, 0.74 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 
 												}
@@ -2615,13 +2614,13 @@
 												"name" : "messagegold",
 												"default" : 												{
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.764706, 0.592157, 0.101961, 0.74 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 
 												}
@@ -2667,13 +2666,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
-														"color1" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-														"color2" : [ 0.129411764705882, 0.137254901960784, 0.149019607843137, 1.0 ],
-														"color" : [ 0.2, 0.2, 0.2, 1.0 ],
 														"angle" : 270.0,
 														"autogradient" : 0.0,
-														"proportion" : 0.5
+														"color" : [ 0.2, 0.2, 0.2, 1.0 ],
+														"color1" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+														"color2" : [ 0.129411764705882, 0.137254901960784, 0.149019607843137, 1.0 ],
+														"proportion" : 0.5,
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -2694,13 +2693,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -2732,13 +2731,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -2854,13 +2853,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -2878,13 +2877,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -2916,13 +2915,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -2940,13 +2939,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -2964,13 +2963,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -3114,13 +3113,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -3138,13 +3137,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -3176,13 +3175,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -3200,13 +3199,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -3224,13 +3223,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -3248,13 +3247,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -3272,13 +3271,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -3296,13 +3295,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -3320,13 +3319,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -3344,13 +3343,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -3368,13 +3367,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -3420,13 +3419,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -3626,13 +3625,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -3650,13 +3649,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -3818,13 +3817,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -3842,13 +3841,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -3866,13 +3865,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -3890,13 +3889,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -3914,13 +3913,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -3938,13 +3937,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -3962,13 +3961,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -4014,13 +4013,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -4080,13 +4079,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -4104,13 +4103,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -4128,13 +4127,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -4317,13 +4316,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -4841,13 +4840,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
-														"color1" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-														"color2" : [ 0.129411764705882, 0.137254901960784, 0.149019607843137, 1.0 ],
-														"color" : [ 0.2, 0.2, 0.2, 1.0 ],
 														"angle" : 270.0,
 														"autogradient" : 0.0,
-														"proportion" : 0.5
+														"color" : [ 0.2, 0.2, 0.2, 1.0 ],
+														"color1" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+														"color2" : [ 0.129411764705882, 0.137254901960784, 0.149019607843137, 1.0 ],
+														"proportion" : 0.5,
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -4912,13 +4911,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -4950,13 +4949,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -4974,13 +4973,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -4998,13 +4997,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -5022,13 +5021,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -5046,13 +5045,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -5154,13 +5153,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -5178,13 +5177,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -5522,13 +5521,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -5874,8 +5873,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6694,7 +6693,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 440.333329677581787, 231.5, 59.0, 22.0 ],
+									"patching_rect" : [ 455.277769088745117, 231.5, 59.0, 22.0 ],
 									"text" : "voices $1"
 								}
 
@@ -6718,8 +6717,8 @@
 									"numinlets" : 4,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "", "" ],
-									"patching_rect" : [ 355.0, 264.5, 211.0, 22.0 ],
-									"text" : "poly~ SM-playback-poly~ 16 @steal 0"
+									"patching_rect" : [ 355.0, 264.5, 267.0, 22.0 ],
+									"text" : "poly~ SM-playback-poly~ 16 @steal 0 @target 0"
 								}
 
 							}
@@ -6730,7 +6729,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 621.833329677581787, 231.5, 128.0, 22.0 ],
+									"patching_rect" : [ 631.833329677581787, 231.5, 128.0, 22.0 ],
 									"text" : "route audio/bypass"
 								}
 
@@ -6742,7 +6741,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 621.833329677581787, 189.0, 115.0, 22.0 ],
+									"patching_rect" : [ 631.833329677581787, 189.0, 115.0, 22.0 ],
 									"text" : "r #0-inputmess"
 								}
 
@@ -6879,7 +6878,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 621.833329677581787, 264.5, 56.0, 20.0 ],
+									"patching_rect" : [ 631.833329677581787, 264.5, 56.0, 20.0 ],
 									"style" : "tatarism",
 									"text" : "!- 1.",
 									"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
@@ -7035,7 +7034,7 @@
 								"patchline" : 								{
 									"color" : [ 0.692221701145172, 0.031610425561666, 0.341017603874207, 1.0 ],
 									"destination" : [ "obj-3", 0 ],
-									"midpoints" : [ 449.833329677581787, 259.5, 364.5, 259.5 ],
+									"midpoints" : [ 464.777769088745117, 259.5, 364.5, 259.5 ],
 									"source" : [ "obj-141", 0 ]
 								}
 
@@ -7060,7 +7059,7 @@
 								"patchline" : 								{
 									"color" : [ 0.192119985818863, 0.719752073287964, 0.284884035587311, 1.0 ],
 									"destination" : [ "obj-37", 1 ],
-									"midpoints" : [ 631.333329677581787, 299.25, 404.5, 299.25 ],
+									"midpoints" : [ 641.333329677581787, 299.25, 404.5, 299.25 ],
 									"order" : 1,
 									"source" : [ "obj-19", 0 ]
 								}
@@ -7070,7 +7069,7 @@
 								"patchline" : 								{
 									"color" : [ 0.694703698158264, 0.324241161346436, 0.367801874876022, 1.0 ],
 									"destination" : [ "obj-61", 1 ],
-									"midpoints" : [ 631.333329677581787, 304.25, 469.166625999999951, 304.25 ],
+									"midpoints" : [ 641.333329677581787, 304.25, 469.166625999999951, 304.25 ],
 									"order" : 0,
 									"source" : [ "obj-19", 0 ]
 								}
@@ -7131,7 +7130,7 @@
 								"patchline" : 								{
 									"color" : [ 0.530121624469757, 0.897229194641113, 0.221751779317856, 1.0 ],
 									"destination" : [ "obj-141", 0 ],
-									"midpoints" : [ 413.37776908874514, 216.0, 449.833329677581787, 216.0 ],
+									"midpoints" : [ 413.37776908874514, 216.0, 464.777769088745117, 216.0 ],
 									"source" : [ "obj-27", 1 ]
 								}
 
@@ -7149,6 +7148,7 @@
 								"patchline" : 								{
 									"color" : [ 0.79995322227478, 0.0, 0.415258884429932, 1.0 ],
 									"destination" : [ "obj-3", 3 ],
+									"midpoints" : [ 556.177769088745094, 237.25, 612.5, 237.25 ],
 									"source" : [ "obj-27", 4 ]
 								}
 
@@ -7157,7 +7157,7 @@
 								"patchline" : 								{
 									"color" : [ 0.117392346262932, 0.113873526453972, 0.998255014419556, 1.0 ],
 									"destination" : [ "obj-3", 2 ],
-									"midpoints" : [ 508.577769088745129, 258.25, 492.5, 258.25 ],
+									"midpoints" : [ 508.577769088745129, 237.25, 529.833333333333371, 237.25 ],
 									"source" : [ "obj-27", 3 ]
 								}
 
@@ -7166,7 +7166,7 @@
 								"patchline" : 								{
 									"color" : [ 0.457598954439163, 0.155409216880798, 0.701082229614258, 1.0 ],
 									"destination" : [ "obj-3", 1 ],
-									"midpoints" : [ 460.977769088745106, 220.5, 428.5, 220.5 ],
+									"midpoints" : [ 460.977769088745106, 220.5, 447.166666666666686, 220.5 ],
 									"source" : [ "obj-27", 2 ]
 								}
 
@@ -7302,8 +7302,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7348,8 +7348,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7638,8 +7638,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -8070,8 +8070,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -8476,13 +8476,13 @@
 																"name" : "AudioStatus_Menu",
 																"default" : 																{
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 																		"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "color"
 																	}
 
 																}
@@ -8494,12 +8494,12 @@
 																"name" : "Audiomix",
 																"default" : 																{
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
-																		"proportion" : 0.39
+																		"proportion" : 0.39,
+																		"type" : "gradient"
 																	}
 
 																}
@@ -8530,13 +8530,13 @@
 																"name" : "messageGreen-1",
 																"default" : 																{
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.165741, 0.364658, 0.14032, 0.74 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 
 																}
@@ -8548,13 +8548,13 @@
 																"name" : "messagegold",
 																"default" : 																{
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.764706, 0.592157, 0.101961, 0.74 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 
 																}
@@ -8600,13 +8600,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
-																		"color1" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-																		"color2" : [ 0.129411764705882, 0.137254901960784, 0.149019607843137, 1.0 ],
-																		"color" : [ 0.2, 0.2, 0.2, 1.0 ],
 																		"angle" : 270.0,
 																		"autogradient" : 0.0,
-																		"proportion" : 0.5
+																		"color" : [ 0.2, 0.2, 0.2, 1.0 ],
+																		"color1" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+																		"color2" : [ 0.129411764705882, 0.137254901960784, 0.149019607843137, 1.0 ],
+																		"proportion" : 0.5,
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -8627,13 +8627,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -8665,13 +8665,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -8787,13 +8787,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -8811,13 +8811,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -8849,13 +8849,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -8873,13 +8873,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -8897,13 +8897,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -9047,13 +9047,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -9071,13 +9071,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -9109,13 +9109,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -9133,13 +9133,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -9157,13 +9157,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -9181,13 +9181,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -9205,13 +9205,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -9229,13 +9229,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -9253,13 +9253,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -9277,13 +9277,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -9301,13 +9301,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -9353,13 +9353,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -9559,13 +9559,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -9583,13 +9583,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -9751,13 +9751,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -9775,13 +9775,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -9799,13 +9799,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -9823,13 +9823,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -9847,13 +9847,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -9871,13 +9871,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -9895,13 +9895,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -9947,13 +9947,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -10013,13 +10013,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -10037,13 +10037,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -10061,13 +10061,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -10250,13 +10250,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -10774,13 +10774,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
-																		"color1" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-																		"color2" : [ 0.129411764705882, 0.137254901960784, 0.149019607843137, 1.0 ],
-																		"color" : [ 0.2, 0.2, 0.2, 1.0 ],
 																		"angle" : 270.0,
 																		"autogradient" : 0.0,
-																		"proportion" : 0.5
+																		"color" : [ 0.2, 0.2, 0.2, 1.0 ],
+																		"color1" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+																		"color2" : [ 0.129411764705882, 0.137254901960784, 0.149019607843137, 1.0 ],
+																		"proportion" : 0.5,
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -10845,13 +10845,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -10883,13 +10883,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -10907,13 +10907,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -10931,13 +10931,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -10955,13 +10955,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -10979,13 +10979,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -11087,13 +11087,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -11111,13 +11111,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -11455,13 +11455,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -12025,13 +12025,13 @@
 												"name" : "AudioStatus_Menu",
 												"default" : 												{
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 														"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "color"
 													}
 
 												}
@@ -12043,12 +12043,12 @@
 												"name" : "Audiomix",
 												"default" : 												{
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
-														"proportion" : 0.39
+														"proportion" : 0.39,
+														"type" : "gradient"
 													}
 
 												}
@@ -12092,12 +12092,7 @@
 											}
 , 											{
 												"name" : "gill",
-												"number" : 												{
-													"fontname" : [ "Gill Sans" ],
-													"fontsize" : [ 11.0 ]
-												}
-,
-												"newobj" : 												{
+												"comment" : 												{
 													"fontname" : [ "Gill Sans" ],
 													"fontsize" : [ 11.0 ]
 												}
@@ -12107,7 +12102,12 @@
 													"fontsize" : [ 11.0 ]
 												}
 ,
-												"comment" : 												{
+												"newobj" : 												{
+													"fontname" : [ "Gill Sans" ],
+													"fontsize" : [ 11.0 ]
+												}
+,
+												"number" : 												{
 													"fontname" : [ "Gill Sans" ],
 													"fontsize" : [ 11.0 ]
 												}
@@ -12124,13 +12124,13 @@
 												"name" : "messageGreen-1",
 												"default" : 												{
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.165741, 0.364658, 0.14032, 0.74 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 
 												}
@@ -12142,13 +12142,13 @@
 												"name" : "messagegold",
 												"default" : 												{
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.764706, 0.592157, 0.101961, 0.74 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 
 												}
@@ -12194,13 +12194,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -12232,13 +12232,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -12284,13 +12284,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -12378,13 +12378,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -12402,13 +12402,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -12426,13 +12426,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -12450,13 +12450,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -12474,13 +12474,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -12498,13 +12498,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -12634,13 +12634,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -12658,13 +12658,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -12696,13 +12696,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -12720,13 +12720,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -12744,13 +12744,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -12768,13 +12768,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -12792,13 +12792,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -12816,13 +12816,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -12840,13 +12840,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -12892,13 +12892,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -13014,13 +13014,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -13038,13 +13038,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -13090,13 +13090,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -13128,13 +13128,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -13152,13 +13152,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -13176,13 +13176,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -13200,13 +13200,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -13224,13 +13224,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -13332,13 +13332,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -13356,13 +13356,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -13380,13 +13380,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -14142,13 +14142,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -14180,13 +14180,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -14204,13 +14204,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -14228,13 +14228,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -14252,13 +14252,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -14276,13 +14276,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -14384,13 +14384,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -14408,13 +14408,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -14752,13 +14752,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -14883,8 +14883,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -15048,8 +15048,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -15094,8 +15094,8 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 8,
-																			"minor" : 2,
-																			"revision" : 2,
+																			"minor" : 5,
+																			"revision" : 6,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -15140,8 +15140,8 @@
 																						"fileversion" : 1,
 																						"appversion" : 																						{
 																							"major" : 8,
-																							"minor" : 2,
-																							"revision" : 2,
+																							"minor" : 5,
+																							"revision" : 6,
 																							"architecture" : "x64",
 																							"modernui" : 1
 																						}
@@ -15944,13 +15944,13 @@
 																								"name" : "AudioStatus_Menu",
 																								"default" : 																								{
 																									"bgfillcolor" : 																									{
-																										"type" : "color",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 																										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "color"
 																									}
 
 																								}
@@ -15962,12 +15962,12 @@
 																								"name" : "Audiomix",
 																								"default" : 																								{
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
-																										"proportion" : 0.39
+																										"proportion" : 0.39,
+																										"type" : "gradient"
 																									}
 
 																								}
@@ -16011,12 +16011,7 @@
 																							}
 , 																							{
 																								"name" : "gill",
-																								"number" : 																								{
-																									"fontname" : [ "Gill Sans" ],
-																									"fontsize" : [ 11.0 ]
-																								}
-,
-																								"newobj" : 																								{
+																								"comment" : 																								{
 																									"fontname" : [ "Gill Sans" ],
 																									"fontsize" : [ 11.0 ]
 																								}
@@ -16026,7 +16021,12 @@
 																									"fontsize" : [ 11.0 ]
 																								}
 ,
-																								"comment" : 																								{
+																								"newobj" : 																								{
+																									"fontname" : [ "Gill Sans" ],
+																									"fontsize" : [ 11.0 ]
+																								}
+,
+																								"number" : 																								{
 																									"fontname" : [ "Gill Sans" ],
 																									"fontsize" : [ 11.0 ]
 																								}
@@ -16043,13 +16043,13 @@
 																								"name" : "messageGreen-1",
 																								"default" : 																								{
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.165741, 0.364658, 0.14032, 0.74 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 
 																								}
@@ -16061,13 +16061,13 @@
 																								"name" : "messagegold",
 																								"default" : 																								{
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.764706, 0.592157, 0.101961, 0.74 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 
 																								}
@@ -16113,13 +16113,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -16151,13 +16151,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -16203,13 +16203,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -16297,13 +16297,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -16321,13 +16321,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -16345,13 +16345,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -16369,13 +16369,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -16393,13 +16393,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -16417,13 +16417,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -16553,13 +16553,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -16577,13 +16577,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -16615,13 +16615,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -16639,13 +16639,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -16663,13 +16663,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -16687,13 +16687,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -16711,13 +16711,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -16735,13 +16735,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -16759,13 +16759,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -16811,13 +16811,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -16933,13 +16933,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -16957,13 +16957,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -17009,13 +17009,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -17047,13 +17047,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -17071,13 +17071,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -17095,13 +17095,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -17119,13 +17119,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -17143,13 +17143,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -17251,13 +17251,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -17275,13 +17275,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -17299,13 +17299,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -18061,13 +18061,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -18099,13 +18099,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -18123,13 +18123,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -18147,13 +18147,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -18171,13 +18171,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -18195,13 +18195,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -18303,13 +18303,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -18327,13 +18327,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -18671,13 +18671,13 @@
 																								"default" : 																								{
 																									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																									"bgfillcolor" : 																									{
-																										"type" : "gradient",
+																										"angle" : 270.0,
+																										"autogradient" : 0,
 																										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																										"angle" : 270.0,
 																										"proportion" : 0.39,
-																										"autogradient" : 0
+																										"type" : "gradient"
 																									}
 ,
 																									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -21512,13 +21512,13 @@
 																				"name" : "AudioStatus_Menu",
 																				"default" : 																				{
 																					"bgfillcolor" : 																					{
-																						"type" : "color",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 																						"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "color"
 																					}
 
 																				}
@@ -21530,12 +21530,12 @@
 																				"name" : "Audiomix",
 																				"default" : 																				{
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
-																						"proportion" : 0.39
+																						"proportion" : 0.39,
+																						"type" : "gradient"
 																					}
 
 																				}
@@ -21579,12 +21579,7 @@
 																			}
 , 																			{
 																				"name" : "gill",
-																				"number" : 																				{
-																					"fontname" : [ "Gill Sans" ],
-																					"fontsize" : [ 11.0 ]
-																				}
-,
-																				"newobj" : 																				{
+																				"comment" : 																				{
 																					"fontname" : [ "Gill Sans" ],
 																					"fontsize" : [ 11.0 ]
 																				}
@@ -21594,7 +21589,12 @@
 																					"fontsize" : [ 11.0 ]
 																				}
 ,
-																				"comment" : 																				{
+																				"newobj" : 																				{
+																					"fontname" : [ "Gill Sans" ],
+																					"fontsize" : [ 11.0 ]
+																				}
+,
+																				"number" : 																				{
 																					"fontname" : [ "Gill Sans" ],
 																					"fontsize" : [ 11.0 ]
 																				}
@@ -21631,13 +21631,13 @@
 																				"name" : "max6message",
 																				"default" : 																				{
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
+																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.866667, 0.866667, 0.866667, 1.0 ],
 																						"color2" : [ 0.788235, 0.788235, 0.788235, 1.0 ],
-																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -21659,13 +21659,13 @@
 																				"name" : "messageGreen-1",
 																				"default" : 																				{
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.165741, 0.364658, 0.14032, 0.74 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 
 																				}
@@ -21677,13 +21677,13 @@
 																				"name" : "messagegold",
 																				"default" : 																				{
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.764706, 0.592157, 0.101961, 0.74 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 
 																				}
@@ -21729,13 +21729,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -21767,13 +21767,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -21805,13 +21805,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -21913,13 +21913,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -21937,13 +21937,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -21975,13 +21975,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -21999,13 +21999,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -22023,13 +22023,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -22103,13 +22103,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -22183,13 +22183,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -22207,13 +22207,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -22259,13 +22259,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -22283,13 +22283,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -22307,13 +22307,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -22345,13 +22345,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -22369,13 +22369,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -22393,13 +22393,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -22417,13 +22417,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -22469,13 +22469,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -22549,13 +22549,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -22615,13 +22615,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -22695,13 +22695,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -22719,13 +22719,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -22901,13 +22901,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -22925,13 +22925,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -22949,13 +22949,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -22973,13 +22973,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -22997,13 +22997,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -23021,13 +23021,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -23073,13 +23073,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -23139,13 +23139,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -23163,13 +23163,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -23187,13 +23187,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -23949,13 +23949,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -23987,13 +23987,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -24011,13 +24011,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -24035,13 +24035,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -24059,13 +24059,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -24083,13 +24083,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -24191,13 +24191,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -24215,13 +24215,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -24559,13 +24559,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -25404,8 +25404,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -25510,8 +25510,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -26255,13 +26255,13 @@
 																"name" : "AudioStatus_Menu",
 																"default" : 																{
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 																		"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "color"
 																	}
 
 																}
@@ -26273,12 +26273,12 @@
 																"name" : "Audiomix",
 																"default" : 																{
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
-																		"proportion" : 0.39
+																		"proportion" : 0.39,
+																		"type" : "gradient"
 																	}
 
 																}
@@ -26309,13 +26309,13 @@
 																"name" : "messageGreen-1",
 																"default" : 																{
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.165741, 0.364658, 0.14032, 0.74 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 
 																}
@@ -26327,13 +26327,13 @@
 																"name" : "messagegold",
 																"default" : 																{
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.764706, 0.592157, 0.101961, 0.74 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 
 																}
@@ -26379,13 +26379,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
-																		"color1" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-																		"color2" : [ 0.129411764705882, 0.137254901960784, 0.149019607843137, 1.0 ],
-																		"color" : [ 0.2, 0.2, 0.2, 1.0 ],
 																		"angle" : 270.0,
 																		"autogradient" : 0.0,
-																		"proportion" : 0.5
+																		"color" : [ 0.2, 0.2, 0.2, 1.0 ],
+																		"color1" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+																		"color2" : [ 0.129411764705882, 0.137254901960784, 0.149019607843137, 1.0 ],
+																		"proportion" : 0.5,
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -26406,13 +26406,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -26444,13 +26444,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -26566,13 +26566,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -26590,13 +26590,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -26628,13 +26628,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -26652,13 +26652,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -26676,13 +26676,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -26826,13 +26826,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -26850,13 +26850,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -26888,13 +26888,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -26912,13 +26912,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -26936,13 +26936,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -26960,13 +26960,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -26984,13 +26984,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -27008,13 +27008,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -27032,13 +27032,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -27056,13 +27056,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -27080,13 +27080,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -27132,13 +27132,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -27338,13 +27338,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -27362,13 +27362,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -27530,13 +27530,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -27554,13 +27554,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -27578,13 +27578,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -27602,13 +27602,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -27626,13 +27626,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -27650,13 +27650,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -27674,13 +27674,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -27726,13 +27726,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -27792,13 +27792,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -27816,13 +27816,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -27840,13 +27840,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -28029,13 +28029,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -28553,13 +28553,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
-																		"color1" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-																		"color2" : [ 0.129411764705882, 0.137254901960784, 0.149019607843137, 1.0 ],
-																		"color" : [ 0.2, 0.2, 0.2, 1.0 ],
 																		"angle" : 270.0,
 																		"autogradient" : 0.0,
-																		"proportion" : 0.5
+																		"color" : [ 0.2, 0.2, 0.2, 1.0 ],
+																		"color1" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+																		"color2" : [ 0.129411764705882, 0.137254901960784, 0.149019607843137, 1.0 ],
+																		"proportion" : 0.5,
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -28624,13 +28624,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -28662,13 +28662,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -28686,13 +28686,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -28710,13 +28710,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -28734,13 +28734,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -28758,13 +28758,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -28866,13 +28866,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -28890,13 +28890,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -29234,13 +29234,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -29863,8 +29863,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -30171,8 +30171,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -30825,8 +30825,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -31333,8 +31333,8 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 8,
-																			"minor" : 2,
-																			"revision" : 2,
+																			"minor" : 5,
+																			"revision" : 6,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -33730,13 +33730,13 @@
 																				"name" : "AudioStatus_Menu",
 																				"default" : 																				{
 																					"bgfillcolor" : 																					{
-																						"type" : "color",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 																						"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "color"
 																					}
 
 																				}
@@ -33748,12 +33748,12 @@
 																				"name" : "Audiomix",
 																				"default" : 																				{
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
-																						"proportion" : 0.39
+																						"proportion" : 0.39,
+																						"type" : "gradient"
 																					}
 
 																				}
@@ -33784,13 +33784,13 @@
 																				"name" : "messageGreen-1",
 																				"default" : 																				{
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.165741, 0.364658, 0.14032, 0.74 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 
 																				}
@@ -33802,13 +33802,13 @@
 																				"name" : "messagegold",
 																				"default" : 																				{
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.764706, 0.592157, 0.101961, 0.74 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 
 																				}
@@ -33883,13 +33883,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -33921,13 +33921,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -33959,13 +33959,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -34039,13 +34039,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -34063,13 +34063,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -34101,13 +34101,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -34125,13 +34125,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -34149,13 +34149,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -34229,13 +34229,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -34309,13 +34309,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -34333,13 +34333,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -34371,13 +34371,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -34395,13 +34395,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -34433,13 +34433,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -34457,13 +34457,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -34481,13 +34481,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -34505,13 +34505,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -34557,13 +34557,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -34609,13 +34609,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -34689,13 +34689,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -34713,13 +34713,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -34779,13 +34779,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -34817,13 +34817,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -34841,13 +34841,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -34865,13 +34865,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -34889,13 +34889,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -34941,13 +34941,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -35007,13 +35007,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -35031,13 +35031,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -35055,13 +35055,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -35802,13 +35802,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -35840,13 +35840,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -35864,13 +35864,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -35888,13 +35888,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -35912,13 +35912,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -35964,13 +35964,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -36030,13 +36030,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -36054,13 +36054,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -36397,13 +36397,13 @@
 																				"default" : 																				{
 																					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "gradient",
+																						"angle" : 270.0,
+																						"autogradient" : 0,
 																						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0
+																						"type" : "gradient"
 																					}
 ,
 																					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -37763,13 +37763,13 @@
 																"name" : "AudioStatus_Menu",
 																"default" : 																{
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 																		"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "color"
 																	}
 
 																}
@@ -37781,12 +37781,12 @@
 																"name" : "Audiomix",
 																"default" : 																{
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
-																		"proportion" : 0.39
+																		"proportion" : 0.39,
+																		"type" : "gradient"
 																	}
 
 																}
@@ -37817,13 +37817,13 @@
 																"name" : "messageGreen-1",
 																"default" : 																{
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.165741, 0.364658, 0.14032, 0.74 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 
 																}
@@ -37835,13 +37835,13 @@
 																"name" : "messagegold",
 																"default" : 																{
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.764706, 0.592157, 0.101961, 0.74 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 
 																}
@@ -37916,13 +37916,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -37954,13 +37954,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -37992,13 +37992,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -38072,13 +38072,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -38096,13 +38096,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -38134,13 +38134,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -38158,13 +38158,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -38182,13 +38182,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -38262,13 +38262,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -38342,13 +38342,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -38366,13 +38366,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -38404,13 +38404,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -38428,13 +38428,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -38466,13 +38466,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -38490,13 +38490,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -38514,13 +38514,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -38538,13 +38538,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -38590,13 +38590,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -38642,13 +38642,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -38722,13 +38722,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -38746,13 +38746,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -38812,13 +38812,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -38850,13 +38850,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -38874,13 +38874,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -38898,13 +38898,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -38922,13 +38922,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -38974,13 +38974,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -39040,13 +39040,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -39064,13 +39064,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -39088,13 +39088,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -39835,13 +39835,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -39873,13 +39873,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -39897,13 +39897,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -39921,13 +39921,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -39945,13 +39945,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -39997,13 +39997,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -40063,13 +40063,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -40087,13 +40087,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -40430,13 +40430,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -40609,8 +40609,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -41028,8 +41028,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -41251,13 +41251,13 @@
 																"name" : "AudioStatus_Menu",
 																"default" : 																{
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 																		"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "color"
 																	}
 
 																}
@@ -41269,12 +41269,12 @@
 																"name" : "Audiomix",
 																"default" : 																{
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
-																		"proportion" : 0.39
+																		"proportion" : 0.39,
+																		"type" : "gradient"
 																	}
 
 																}
@@ -41305,13 +41305,13 @@
 																"name" : "messageGreen-1",
 																"default" : 																{
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.165741, 0.364658, 0.14032, 0.74 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 
 																}
@@ -41323,13 +41323,13 @@
 																"name" : "messagegold",
 																"default" : 																{
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.764706, 0.592157, 0.101961, 0.74 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 
 																}
@@ -41375,13 +41375,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -41413,13 +41413,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -41451,13 +41451,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -41559,13 +41559,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -41583,13 +41583,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -41621,13 +41621,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -41645,13 +41645,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -41669,13 +41669,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -41749,13 +41749,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -41829,13 +41829,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -41853,13 +41853,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -41905,13 +41905,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -41929,13 +41929,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -41953,13 +41953,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -41991,13 +41991,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -42015,13 +42015,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -42039,13 +42039,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -42063,13 +42063,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -42115,13 +42115,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -42139,13 +42139,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -42205,13 +42205,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -42285,13 +42285,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -42309,13 +42309,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -42375,13 +42375,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -42399,13 +42399,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -42423,13 +42423,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -42447,13 +42447,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -42471,13 +42471,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -42495,13 +42495,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -42547,13 +42547,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -42613,13 +42613,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -42637,13 +42637,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -42661,13 +42661,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -43423,13 +43423,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -43461,13 +43461,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -43485,13 +43485,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -43509,13 +43509,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -43533,13 +43533,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -43557,13 +43557,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -43665,13 +43665,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -43689,13 +43689,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -44033,13 +44033,13 @@
 																"default" : 																{
 																	"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "gradient",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 																		"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "gradient"
 																	}
 ,
 																	"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -44288,8 +44288,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -46236,13 +46236,13 @@
 												"name" : "AudioStatus_Menu",
 												"default" : 												{
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 														"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "color"
 													}
 
 												}
@@ -46254,12 +46254,12 @@
 												"name" : "Audiomix",
 												"default" : 												{
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
-														"proportion" : 0.39
+														"proportion" : 0.39,
+														"type" : "gradient"
 													}
 
 												}
@@ -46290,13 +46290,13 @@
 												"name" : "messageGreen-1",
 												"default" : 												{
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.165741, 0.364658, 0.14032, 0.74 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 
 												}
@@ -46308,13 +46308,13 @@
 												"name" : "messagegold",
 												"default" : 												{
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.764706, 0.592157, 0.101961, 0.74 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 
 												}
@@ -46360,13 +46360,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -46398,13 +46398,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -46436,13 +46436,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -46544,13 +46544,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -46568,13 +46568,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -46606,13 +46606,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -46630,13 +46630,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -46654,13 +46654,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -46734,13 +46734,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -46814,13 +46814,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -46838,13 +46838,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -46890,13 +46890,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -46914,13 +46914,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -46938,13 +46938,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -46976,13 +46976,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -47000,13 +47000,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -47024,13 +47024,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -47048,13 +47048,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -47100,13 +47100,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -47124,13 +47124,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -47190,13 +47190,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -47270,13 +47270,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -47294,13 +47294,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -47360,13 +47360,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -47384,13 +47384,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -47408,13 +47408,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -47432,13 +47432,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -47456,13 +47456,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -47480,13 +47480,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -47532,13 +47532,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -47598,13 +47598,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -47622,13 +47622,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -47646,13 +47646,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -48408,13 +48408,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -48446,13 +48446,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -48470,13 +48470,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -48494,13 +48494,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -48518,13 +48518,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -48542,13 +48542,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -48650,13 +48650,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -48674,13 +48674,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -49018,13 +49018,13 @@
 												"default" : 												{
 													"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "gradient"
 													}
 ,
 													"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -49453,8 +49453,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -49597,8 +49597,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -49939,8 +49939,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -51192,13 +51192,13 @@
 												"name" : "AudioStatus_Menu",
 												"default" : 												{
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 														"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "color"
 													}
 
 												}
@@ -51401,13 +51401,13 @@
 								"name" : "AudioStatus_Menu",
 								"default" : 								{
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
 
 								}
@@ -51419,12 +51419,12 @@
 								"name" : "Audiomix",
 								"default" : 								{
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
-										"proportion" : 0.39
+										"proportion" : 0.39,
+										"type" : "gradient"
 									}
 
 								}
@@ -51475,13 +51475,13 @@
 								"name" : "max6message",
 								"default" : 								{
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.866667, 0.866667, 0.866667, 1.0 ],
 										"color2" : [ 0.788235, 0.788235, 0.788235, 1.0 ],
-										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -51503,13 +51503,13 @@
 								"name" : "messageGreen-1",
 								"default" : 								{
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.165741, 0.364658, 0.14032, 0.74 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 
 								}
@@ -51521,13 +51521,13 @@
 								"name" : "messagegold",
 								"default" : 								{
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.764706, 0.592157, 0.101961, 0.74 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 
 								}
@@ -51573,13 +51573,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
-										"color1" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-										"color2" : [ 0.129411764705882, 0.137254901960784, 0.149019607843137, 1.0 ],
-										"color" : [ 0.2, 0.2, 0.2, 1.0 ],
 										"angle" : 270.0,
 										"autogradient" : 0.0,
-										"proportion" : 0.5
+										"color" : [ 0.2, 0.2, 0.2, 1.0 ],
+										"color1" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+										"color2" : [ 0.129411764705882, 0.137254901960784, 0.149019607843137, 1.0 ],
+										"proportion" : 0.5,
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -51600,13 +51600,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -51638,13 +51638,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -51760,13 +51760,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -51784,13 +51784,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -51822,13 +51822,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -51846,13 +51846,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -51870,13 +51870,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -52020,13 +52020,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -52044,13 +52044,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -52082,13 +52082,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -52106,13 +52106,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -52130,13 +52130,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -52154,13 +52154,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -52178,13 +52178,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -52202,13 +52202,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -52226,13 +52226,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -52250,13 +52250,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -52274,13 +52274,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -52326,13 +52326,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -52532,13 +52532,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -52556,13 +52556,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -52724,13 +52724,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -52748,13 +52748,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -52772,13 +52772,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -52796,13 +52796,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -52820,13 +52820,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -52844,13 +52844,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -52868,13 +52868,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -52920,13 +52920,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -52986,13 +52986,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -53010,13 +53010,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -53034,13 +53034,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -53223,13 +53223,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -53747,13 +53747,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
-										"color1" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-										"color2" : [ 0.129411764705882, 0.137254901960784, 0.149019607843137, 1.0 ],
-										"color" : [ 0.2, 0.2, 0.2, 1.0 ],
 										"angle" : 270.0,
 										"autogradient" : 0.0,
-										"proportion" : 0.5
+										"color" : [ 0.2, 0.2, 0.2, 1.0 ],
+										"color1" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+										"color2" : [ 0.129411764705882, 0.137254901960784, 0.149019607843137, 1.0 ],
+										"proportion" : 0.5,
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -53818,13 +53818,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -53856,13 +53856,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -53880,13 +53880,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -53904,13 +53904,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -53928,13 +53928,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -53952,13 +53952,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -54060,13 +54060,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -54084,13 +54084,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -54428,13 +54428,13 @@
 								"default" : 								{
 									"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 ,
 									"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -54735,8 +54735,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -56829,85 +56829,85 @@
  ],
 		"parameters" : 		{
 			"obj-180::obj-53" : [ "number[17]", "number", 0 ],
-			"obj-35::obj-3.10::obj-67" : [ "live.tab[9]", "live.tab", 0 ],
-			"obj-35::obj-3.11::obj-67" : [ "live.tab[10]", "live.tab", 0 ],
-			"obj-35::obj-3.12::obj-67" : [ "live.tab[11]", "live.tab", 0 ],
-			"obj-35::obj-3.13::obj-67" : [ "live.tab[12]", "live.tab", 0 ],
-			"obj-35::obj-3.14::obj-67" : [ "live.tab[13]", "live.tab", 0 ],
-			"obj-35::obj-3.15::obj-67" : [ "live.tab[14]", "live.tab", 0 ],
-			"obj-35::obj-3.16::obj-67" : [ "live.tab[15]", "live.tab", 0 ],
-			"obj-35::obj-3.1::obj-67" : [ "live.tab", "live.tab", 0 ],
-			"obj-35::obj-3.2::obj-67" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-35::obj-3.3::obj-67" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-35::obj-3.4::obj-67" : [ "live.tab[3]", "live.tab", 0 ],
-			"obj-35::obj-3.5::obj-67" : [ "live.tab[4]", "live.tab", 0 ],
-			"obj-35::obj-3.6::obj-67" : [ "live.tab[5]", "live.tab", 0 ],
-			"obj-35::obj-3.7::obj-67" : [ "live.tab[6]", "live.tab", 0 ],
-			"obj-35::obj-3.8::obj-67" : [ "live.tab[7]", "live.tab", 0 ],
-			"obj-35::obj-3.9::obj-67" : [ "live.tab[8]", "live.tab", 0 ],
+			"obj-35::obj-3.10::obj-67" : [ "live.tab[8]", "live.tab", 0 ],
+			"obj-35::obj-3.11::obj-67" : [ "live.tab[9]", "live.tab", 0 ],
+			"obj-35::obj-3.12::obj-67" : [ "live.tab[10]", "live.tab", 0 ],
+			"obj-35::obj-3.13::obj-67" : [ "live.tab[11]", "live.tab", 0 ],
+			"obj-35::obj-3.14::obj-67" : [ "live.tab[12]", "live.tab", 0 ],
+			"obj-35::obj-3.15::obj-67" : [ "live.tab[13]", "live.tab", 0 ],
+			"obj-35::obj-3.16::obj-67" : [ "live.tab[14]", "live.tab", 0 ],
+			"obj-35::obj-3.1::obj-67" : [ "live.tab[15]", "live.tab", 0 ],
+			"obj-35::obj-3.2::obj-67" : [ "live.tab", "live.tab", 0 ],
+			"obj-35::obj-3.3::obj-67" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-35::obj-3.4::obj-67" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-35::obj-3.5::obj-67" : [ "live.tab[3]", "live.tab", 0 ],
+			"obj-35::obj-3.6::obj-67" : [ "live.tab[4]", "live.tab", 0 ],
+			"obj-35::obj-3.7::obj-67" : [ "live.tab[5]", "live.tab", 0 ],
+			"obj-35::obj-3.8::obj-67" : [ "live.tab[6]", "live.tab", 0 ],
+			"obj-35::obj-3.9::obj-67" : [ "live.tab[7]", "live.tab", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
 				"obj-35::obj-3.10::obj-67" : 				{
-					"parameter_longname" : "live.tab[9]"
+					"parameter_longname" : "live.tab[8]"
 				}
 ,
 				"obj-35::obj-3.11::obj-67" : 				{
-					"parameter_longname" : "live.tab[10]"
+					"parameter_longname" : "live.tab[9]"
 				}
 ,
 				"obj-35::obj-3.12::obj-67" : 				{
-					"parameter_longname" : "live.tab[11]"
+					"parameter_longname" : "live.tab[10]"
 				}
 ,
 				"obj-35::obj-3.13::obj-67" : 				{
-					"parameter_longname" : "live.tab[12]"
+					"parameter_longname" : "live.tab[11]"
 				}
 ,
 				"obj-35::obj-3.14::obj-67" : 				{
-					"parameter_longname" : "live.tab[13]"
+					"parameter_longname" : "live.tab[12]"
 				}
 ,
 				"obj-35::obj-3.15::obj-67" : 				{
-					"parameter_longname" : "live.tab[14]"
+					"parameter_longname" : "live.tab[13]"
 				}
 ,
 				"obj-35::obj-3.16::obj-67" : 				{
+					"parameter_longname" : "live.tab[14]"
+				}
+,
+				"obj-35::obj-3.1::obj-67" : 				{
 					"parameter_longname" : "live.tab[15]"
 				}
 ,
-				"obj-35::obj-3.2::obj-67" : 				{
+				"obj-35::obj-3.3::obj-67" : 				{
 					"parameter_longname" : "live.tab[1]"
 				}
 ,
-				"obj-35::obj-3.3::obj-67" : 				{
+				"obj-35::obj-3.4::obj-67" : 				{
 					"parameter_longname" : "live.tab[2]"
 				}
 ,
-				"obj-35::obj-3.4::obj-67" : 				{
+				"obj-35::obj-3.5::obj-67" : 				{
 					"parameter_longname" : "live.tab[3]"
 				}
 ,
-				"obj-35::obj-3.5::obj-67" : 				{
+				"obj-35::obj-3.6::obj-67" : 				{
 					"parameter_longname" : "live.tab[4]"
 				}
 ,
-				"obj-35::obj-3.6::obj-67" : 				{
+				"obj-35::obj-3.7::obj-67" : 				{
 					"parameter_longname" : "live.tab[5]"
 				}
 ,
-				"obj-35::obj-3.7::obj-67" : 				{
+				"obj-35::obj-3.8::obj-67" : 				{
 					"parameter_longname" : "live.tab[6]"
 				}
 ,
-				"obj-35::obj-3.8::obj-67" : 				{
-					"parameter_longname" : "live.tab[7]"
-				}
-,
 				"obj-35::obj-3.9::obj-67" : 				{
-					"parameter_longname" : "live.tab[8]"
+					"parameter_longname" : "live.tab[7]"
 				}
 
 			}
@@ -57045,13 +57045,13 @@
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "color",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 						"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "color"
 					}
 
 				}
@@ -57063,12 +57063,12 @@
 				"name" : "Audiomix",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39
+						"proportion" : 0.39,
+						"type" : "gradient"
 					}
 
 				}
@@ -57119,13 +57119,13 @@
 				"name" : "max6message",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.866667, 0.866667, 0.866667, 1.0 ],
 						"color2" : [ 0.788235, 0.788235, 0.788235, 1.0 ],
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -57147,13 +57147,13 @@
 				"name" : "messageGreen-1",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.165741, 0.364658, 0.14032, 0.74 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 
 				}
@@ -57165,13 +57165,13 @@
 				"name" : "messagegold",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.764706, 0.592157, 0.101961, 0.74 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 
 				}
@@ -57217,13 +57217,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color1" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-						"color2" : [ 0.129411764705882, 0.137254901960784, 0.149019607843137, 1.0 ],
-						"color" : [ 0.2, 0.2, 0.2, 1.0 ],
 						"angle" : 270.0,
 						"autogradient" : 0.0,
-						"proportion" : 0.5
+						"color" : [ 0.2, 0.2, 0.2, 1.0 ],
+						"color1" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+						"color2" : [ 0.129411764705882, 0.137254901960784, 0.149019607843137, 1.0 ],
+						"proportion" : 0.5,
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -57244,13 +57244,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -57282,13 +57282,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -57404,13 +57404,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -57428,13 +57428,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -57466,13 +57466,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -57490,13 +57490,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -57514,13 +57514,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -57664,13 +57664,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -57688,13 +57688,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -57726,13 +57726,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -57750,13 +57750,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -57774,13 +57774,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -57798,13 +57798,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -57822,13 +57822,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -57846,13 +57846,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -57870,13 +57870,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -57894,13 +57894,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -57918,13 +57918,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -57970,13 +57970,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -58176,13 +58176,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -58200,13 +58200,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -58368,13 +58368,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -58392,13 +58392,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -58416,13 +58416,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -58440,13 +58440,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -58464,13 +58464,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -58488,13 +58488,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -58512,13 +58512,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -58564,13 +58564,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -58630,13 +58630,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -58654,13 +58654,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -58678,13 +58678,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -58867,13 +58867,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -59391,13 +59391,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color1" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-						"color2" : [ 0.129411764705882, 0.137254901960784, 0.149019607843137, 1.0 ],
-						"color" : [ 0.2, 0.2, 0.2, 1.0 ],
 						"angle" : 270.0,
 						"autogradient" : 0.0,
-						"proportion" : 0.5
+						"color" : [ 0.2, 0.2, 0.2, 1.0 ],
+						"color1" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+						"color2" : [ 0.129411764705882, 0.137254901960784, 0.149019607843137, 1.0 ],
+						"proportion" : 0.5,
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -59462,13 +59462,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -59500,13 +59500,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -59524,13 +59524,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -59548,13 +59548,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -59572,13 +59572,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -59596,13 +59596,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -59704,13 +59704,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -59728,13 +59728,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -60072,13 +60072,13 @@
 				"default" : 				{
 					"bgcolor" : [ 0.19771, 0.188048, 0.201856, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.372549, 0.196078, 0.486275, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
