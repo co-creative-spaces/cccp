@@ -4,6 +4,7 @@ import numpy as np
 from sklearn.cluster import AffinityPropagation
 sys.path.insert(0, '../core')
 import cccp
+import paho.mqtt.client as mqtt
 
 
 sub_topic = "/cccp/onset"
@@ -21,7 +22,7 @@ METRO_INTERVAL = 1  # metronome interval (seconds)
 MAX_HISTORY = 5    # max no. of onset lists stored
 
 PRINT = True        # toggle minimal printing 
-DEBUG = False        # toggle debug mode (printing)
+DEBUG = True        # toggle debug mode (printing)
 
 phrase_idx = 0
 onset_count = 0
@@ -35,6 +36,10 @@ long_timeout = cccp.Metro(METRO_INTERVAL)
 
 # Set up mqtt connection
 client = cccp.MQTT_Client('127.0.0.1')
+
+# V2 of API
+#client = cccp.MQTT_Client(mqtt.CallbackAPIVersion.VERSION2)
+
 
 aff_prop = AffinityPropagation(max_iter=250)
 aff_prop.random_state = None

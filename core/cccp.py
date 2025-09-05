@@ -10,15 +10,16 @@ class MQTT_Client:
         self.port = port
         client_id = f'cccp-py-mqtt-{random.randint(0, 1000)}'
         # Set Connecting Client ID
-        self.client = mqtt.Client(client_id)
+        #self.client = mqtt.Client(client_id)
+        self.client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2)
         # For debug printing
         self.client.on_message=self.on_message
         self.topics = []
-        self.PRINT = 0
+        self.PRINT = 1
 
     def connect(self):
         print("Trying to connect to ", self.broker_ip, " on port ", self.port)
-        def on_connect(client, userdata, flags, rc):
+        def on_connect(client, userdata, flags, rc, properties):
             if rc == 0:
                 print("Connected to MQTT Broker!")
             else:
@@ -44,14 +45,19 @@ class MQTT_Client:
             print("Subscribing to ", topic)
         self.topics.append(topic)
 
+    #def on_publish(client, userdata, mid, reason_code, properties):
+    #    if (self.PRINT>=1):
+    #        print("Publishing to ", topic, ": ", value)
+    #    self.client.on_publish(topic, value,qos=1)
+
     def publish(self, topic, value):
         if (self.PRINT>=1):
             print("Publishing to ", topic, ": ", value)
-        self.client.publish(topic, value)
+        self.client.publish(topic, value, qos=1)
 
     def start_loop(self):
         while True:
-            self.client.loop()
+            self.client.loop_forever()
 
     def start_listening(self):
         self.connect()
