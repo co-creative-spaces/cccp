@@ -46,6 +46,7 @@ Restart your Max after you install all libraries and adding the path of the abst
 ## Preparing your audio files for training
 
 - In your dataset_folder create a folder named audio
+- In the same folder, create a folder named data
 
 Please notice the no-caps. This folder should have audio files in the format of .wav, 16-bit, 44.1kHz
 
