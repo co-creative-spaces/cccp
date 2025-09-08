@@ -1,0 +1,8 @@
+npm ERR! code ENOTEMPTY
+npm ERR! syscall rename
+npm ERR! path /Users/berntisak/code/art-projects/CCS/cccp/agents/SpireMuse_CCCP/Run/node_modules/mqtt
+npm ERR! dest /Users/berntisak/code/art-projects/CCS/cccp/agents/SpireMuse_CCCP/Run/node_modules/.mqtt-gpcsw66k
+npm ERR! errno -66
+npm ERR! ENOTEMPTY: directory not empty, rename '/Users/berntisak/code/art-projects/CCS/cccp/agents/SpireMuse_CCCP/Run/node_modules/mqtt' -> '/Users/berntisak/code/art-projects/CCS/cccp/agents/SpireMuse_CCCP/Run/node_modules/.mqtt-gpcsw66k'
+
+npm ERR! A complete log of this run can be found in: /Users/berntisak/.npm/_logs/2025-09-05T13_12_10_707Z-debug-0.log

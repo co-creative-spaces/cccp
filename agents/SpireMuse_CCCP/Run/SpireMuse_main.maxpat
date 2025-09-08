@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1372.0, 787.0 ],
+		"rect" : [ 39.0, 138.0, 1011.0, 582.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -299,50 +299,85 @@
 			"obj-3::obj-70" : [ "number[1]", "number", 0 ],
 			"obj-3::obj-77" : [ "live.text[13]", "live.text", 0 ],
 			"obj-6::obj-180::obj-53" : [ "number[17]", "number", 0 ],
+			"obj-6::obj-35::obj-3.10::obj-67" : [ "live.tab[5]", "live.tab", 0 ],
+			"obj-6::obj-35::obj-3.11::obj-67" : [ "live.tab[6]", "live.tab", 0 ],
+			"obj-6::obj-35::obj-3.12::obj-67" : [ "live.tab[7]", "live.tab", 0 ],
+			"obj-6::obj-35::obj-3.13::obj-67" : [ "live.tab[17]", "live.tab", 0 ],
+			"obj-6::obj-35::obj-3.14::obj-67" : [ "live.tab[10]", "live.tab", 0 ],
+			"obj-6::obj-35::obj-3.15::obj-67" : [ "live.tab[18]", "live.tab", 0 ],
+			"obj-6::obj-35::obj-3.16::obj-67" : [ "live.tab[19]", "live.tab", 0 ],
 			"obj-6::obj-35::obj-3.1::obj-67" : [ "live.tab", "live.tab", 0 ],
-			"obj-6::obj-35::obj-3.2::obj-67" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-6::obj-35::obj-3.3::obj-67" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-6::obj-35::obj-3.4::obj-67" : [ "live.tab[3]", "live.tab", 0 ],
-			"obj-6::obj-35::obj-3.5::obj-67" : [ "live.tab[4]", "live.tab", 0 ],
-			"obj-6::obj-35::obj-3.6::obj-67" : [ "live.tab[5]", "live.tab", 0 ],
-			"obj-6::obj-35::obj-3.7::obj-67" : [ "live.tab[6]", "live.tab", 0 ],
-			"obj-6::obj-35::obj-3.8::obj-67" : [ "live.tab[7]", "live.tab", 0 ],
-			"obj-6::obj-35::obj-3.9::obj-67" : [ "live.tab[8]", "live.tab", 0 ],
+			"obj-6::obj-35::obj-3.2::obj-67" : [ "live.tab[9]", "live.tab", 0 ],
+			"obj-6::obj-35::obj-3.3::obj-67" : [ "live.tab[13]", "live.tab", 0 ],
+			"obj-6::obj-35::obj-3.4::obj-67" : [ "live.tab[15]", "live.tab", 0 ],
+			"obj-6::obj-35::obj-3.5::obj-67" : [ "live.tab[16]", "live.tab", 0 ],
+			"obj-6::obj-35::obj-3.6::obj-67" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-6::obj-35::obj-3.7::obj-67" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-6::obj-35::obj-3.8::obj-67" : [ "live.tab[3]", "live.tab", 0 ],
+			"obj-6::obj-35::obj-3.9::obj-67" : [ "live.tab[4]", "live.tab", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-6::obj-35::obj-3.2::obj-67" : 				{
-					"parameter_longname" : "live.tab[1]"
-				}
-,
-				"obj-6::obj-35::obj-3.3::obj-67" : 				{
-					"parameter_longname" : "live.tab[2]"
-				}
-,
-				"obj-6::obj-35::obj-3.4::obj-67" : 				{
-					"parameter_longname" : "live.tab[3]"
-				}
-,
-				"obj-6::obj-35::obj-3.5::obj-67" : 				{
-					"parameter_longname" : "live.tab[4]"
-				}
-,
-				"obj-6::obj-35::obj-3.6::obj-67" : 				{
+				"obj-6::obj-35::obj-3.10::obj-67" : 				{
 					"parameter_longname" : "live.tab[5]"
 				}
 ,
-				"obj-6::obj-35::obj-3.7::obj-67" : 				{
+				"obj-6::obj-35::obj-3.11::obj-67" : 				{
 					"parameter_longname" : "live.tab[6]"
 				}
 ,
-				"obj-6::obj-35::obj-3.8::obj-67" : 				{
+				"obj-6::obj-35::obj-3.12::obj-67" : 				{
 					"parameter_longname" : "live.tab[7]"
 				}
 ,
+				"obj-6::obj-35::obj-3.13::obj-67" : 				{
+					"parameter_longname" : "live.tab[17]"
+				}
+,
+				"obj-6::obj-35::obj-3.14::obj-67" : 				{
+					"parameter_longname" : "live.tab[10]"
+				}
+,
+				"obj-6::obj-35::obj-3.15::obj-67" : 				{
+					"parameter_longname" : "live.tab[18]"
+				}
+,
+				"obj-6::obj-35::obj-3.16::obj-67" : 				{
+					"parameter_longname" : "live.tab[19]"
+				}
+,
+				"obj-6::obj-35::obj-3.2::obj-67" : 				{
+					"parameter_longname" : "live.tab[9]"
+				}
+,
+				"obj-6::obj-35::obj-3.3::obj-67" : 				{
+					"parameter_longname" : "live.tab[13]"
+				}
+,
+				"obj-6::obj-35::obj-3.4::obj-67" : 				{
+					"parameter_longname" : "live.tab[15]"
+				}
+,
+				"obj-6::obj-35::obj-3.5::obj-67" : 				{
+					"parameter_longname" : "live.tab[16]"
+				}
+,
+				"obj-6::obj-35::obj-3.6::obj-67" : 				{
+					"parameter_longname" : "live.tab[1]"
+				}
+,
+				"obj-6::obj-35::obj-3.7::obj-67" : 				{
+					"parameter_longname" : "live.tab[2]"
+				}
+,
+				"obj-6::obj-35::obj-3.8::obj-67" : 				{
+					"parameter_longname" : "live.tab[3]"
+				}
+,
 				"obj-6::obj-35::obj-3.9::obj-67" : 				{
-					"parameter_longname" : "live.tab[8]"
+					"parameter_longname" : "live.tab[4]"
 				}
 
 			}
@@ -352,84 +387,84 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "OMax.yin+.maxpat",
-				"bootpath" : "~/Code/art-projects/co-creative-spaces/cccp/agents/SpireMuse_CCCP/abstractions/Somax",
+				"bootpath" : "~/code/art-projects/CCS/cccp/agents/SpireMuse_CCCP/abstractions/Somax",
 				"patcherrelativepath" : "../abstractions/Somax",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SM-playback-poly~.maxpat",
-				"bootpath" : "~/Code/art-projects/co-creative-spaces/cccp/agents/SpireMuse_CCCP/Run",
+				"bootpath" : "~/code/art-projects/CCS/cccp/agents/SpireMuse_CCCP/Run",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SM_feedback.maxpat",
-				"bootpath" : "~/Code/art-projects/co-creative-spaces/cccp/agents/SpireMuse_CCCP/Run",
+				"bootpath" : "~/code/art-projects/CCS/cccp/agents/SpireMuse_CCCP/Run",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SM_model.maxpat",
-				"bootpath" : "~/Code/art-projects/co-creative-spaces/cccp/agents/SpireMuse_CCCP/Run",
+				"bootpath" : "~/code/art-projects/CCS/cccp/agents/SpireMuse_CCCP/Run",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SM_negotiation.maxpat",
-				"bootpath" : "~/Code/art-projects/co-creative-spaces/cccp/agents/SpireMuse_CCCP/Run",
+				"bootpath" : "~/code/art-projects/CCS/cccp/agents/SpireMuse_CCCP/Run",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SM_startstop.maxpat",
-				"bootpath" : "~/Code/art-projects/co-creative-spaces/cccp/agents/SpireMuse_CCCP/Run",
+				"bootpath" : "~/code/art-projects/CCS/cccp/agents/SpireMuse_CCCP/Run",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SM_view.maxpat",
-				"bootpath" : "~/Code/art-projects/co-creative-spaces/cccp/agents/SpireMuse_CCCP/Run",
+				"bootpath" : "~/code/art-projects/CCS/cccp/agents/SpireMuse_CCCP/Run",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SOM-nodes.txt",
-				"bootpath" : "~/Downloads/CCCP-agents/Morten_May/data",
-				"patcherrelativepath" : "../../../../../../../Downloads/CCCP-agents/Morten_May/data",
+				"bootpath" : "~/Downloads/CCS-agents/ElectricResistance/data",
+				"patcherrelativepath" : "../../../../../../../Downloads/CCS-agents/ElectricResistance/data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "VMM-training-SOM-seq.txt",
-				"bootpath" : "~/Downloads/CCCP-agents/Morten_May/data",
-				"patcherrelativepath" : "../../../../../../../Downloads/CCCP-agents/Morten_May/data",
+				"bootpath" : "~/Downloads/CCS-agents/ElectricResistance/data",
+				"patcherrelativepath" : "../../../../../../../Downloads/CCS-agents/ElectricResistance/data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Yin+.maxpat",
-				"bootpath" : "~/Code/art-projects/co-creative-spaces/cccp/agents/SpireMuse_CCCP/abstractions/Somax",
+				"bootpath" : "~/code/art-projects/CCS/cccp/agents/SpireMuse_CCCP/abstractions/Somax",
 				"patcherrelativepath" : "../abstractions/Somax",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "audio2chroma.maxpat",
-				"bootpath" : "~/Code/art-projects/co-creative-spaces/cccp/agents/SpireMuse_CCCP/abstractions/Somax",
+				"bootpath" : "~/code/art-projects/CCS/cccp/agents/SpireMuse_CCCP/abstractions/Somax",
 				"patcherrelativepath" : "../abstractions/Somax",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bc.autoname.js",
-				"bootpath" : "~/Code/art-projects/co-creative-spaces/cccp/agents/SpireMuse_CCCP/abstractions/externals",
+				"bootpath" : "~/code/art-projects/CCS/cccp/agents/SpireMuse_CCCP/abstractions/externals",
 				"patcherrelativepath" : "../abstractions/externals",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -448,15 +483,15 @@
 			}
 , 			{
 				"name" : "clusters.txt",
-				"bootpath" : "~/Downloads/CCCP-agents/Morten_May/data",
-				"patcherrelativepath" : "../../../../../../../Downloads/CCCP-agents/Morten_May/data",
+				"bootpath" : "~/Downloads/CCS-agents/ElectricResistance/data",
+				"patcherrelativepath" : "../../../../../../../Downloads/CCS-agents/ElectricResistance/data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "data-concatenated.txt",
-				"bootpath" : "~/Downloads/CCCP-agents/Morten_May/data",
-				"patcherrelativepath" : "../../../../../../../Downloads/CCCP-agents/Morten_May/data",
+				"bootpath" : "~/Downloads/CCS-agents/ElectricResistance/data",
+				"patcherrelativepath" : "../../../../../../../Downloads/CCS-agents/ElectricResistance/data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -471,19 +506,23 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "fluid.onsetslice~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "ircamdescriptor~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "max-mqtt-client.js",
-				"bootpath" : "~/Code/art-projects/co-creative-spaces/cccp/agents/SpireMuse_CCCP/Run",
+				"bootpath" : "~/code/art-projects/CCS/cccp/agents/SpireMuse_CCCP/Run",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mqtt-client.maxpat",
-				"bootpath" : "~/Code/art-projects/co-creative-spaces/cccp/agents/SpireMuse_CCCP/Run",
+				"bootpath" : "~/code/art-projects/CCS/cccp/agents/SpireMuse_CCCP/Run",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -496,14 +535,14 @@
 			}
 , 			{
 				"name" : "pctm.txt",
-				"bootpath" : "~/Downloads/CCCP-agents/Morten_May/data",
-				"patcherrelativepath" : "../../../../../../../Downloads/CCCP-agents/Morten_May/data",
+				"bootpath" : "~/Downloads/CCS-agents/ElectricResistance/data",
+				"patcherrelativepath" : "../../../../../../../Downloads/CCS-agents/ElectricResistance/data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pipo-VA-online-interactive-v01~.maxpat",
-				"bootpath" : "~/Code/art-projects/co-creative-spaces/cccp/agents/SpireMuse_CCCP/abstractions/VA_estimation",
+				"bootpath" : "~/code/art-projects/CCS/cccp/agents/SpireMuse_CCCP/abstractions/VA_estimation",
 				"patcherrelativepath" : "../abstractions/VA_estimation",
 				"type" : "JSON",
 				"implicit" : 1
@@ -514,8 +553,8 @@
 			}
 , 			{
 				"name" : "pitches.txt",
-				"bootpath" : "~/Downloads/CCCP-agents/Morten_May/data",
-				"patcherrelativepath" : "../../../../../../../Downloads/CCCP-agents/Morten_May/data",
+				"bootpath" : "~/Downloads/CCS-agents/ElectricResistance/data",
+				"patcherrelativepath" : "../../../../../../../Downloads/CCS-agents/ElectricResistance/data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -531,29 +570,29 @@
 			}
 , 			{
 				"name" : "somax.audioinfluencer.maxpat",
-				"bootpath" : "~/Code/art-projects/co-creative-spaces/cccp/agents/SpireMuse_CCCP/abstractions/Somax",
+				"bootpath" : "~/code/art-projects/CCS/cccp/agents/SpireMuse_CCCP/abstractions/Somax",
 				"patcherrelativepath" : "../abstractions/Somax",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sr.maxpat",
-				"bootpath" : "~/Code/art-projects/co-creative-spaces/cccp/agents/SpireMuse_CCCP/abstractions/Somax",
+				"bootpath" : "~/code/art-projects/CCS/cccp/agents/SpireMuse_CCCP/abstractions/Somax",
 				"patcherrelativepath" : "../abstractions/Somax",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stats.txt",
-				"bootpath" : "~/Downloads/CCCP-agents/Morten_May/data",
-				"patcherrelativepath" : "../../../../../../../Downloads/CCCP-agents/Morten_May/data",
+				"bootpath" : "~/Downloads/CCS-agents/ElectricResistance/data",
+				"patcherrelativepath" : "../../../../../../../Downloads/CCS-agents/ElectricResistance/data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tempos.txt",
-				"bootpath" : "~/Downloads/CCCP-agents/Morten_May/data",
-				"patcherrelativepath" : "../../../../../../../Downloads/CCCP-agents/Morten_May/data",
+				"bootpath" : "~/Downloads/CCS-agents/ElectricResistance/data",
+				"patcherrelativepath" : "../../../../../../../Downloads/CCS-agents/ElectricResistance/data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

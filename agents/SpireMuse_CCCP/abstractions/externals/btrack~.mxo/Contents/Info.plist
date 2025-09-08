@@ -3,44 +3,51 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>15G31</string>
+	<string>23B92</string>
+	<key>C74ObjectProperties</key>
+	<dict>
+		<key>c74excludefromcollectives</key>
+		<string></string>
+	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
 	<string>btrack~</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.cycling74.btrack-</string>
+	<string>.</string>
 	<key>CFBundleInfoDictionaryVersion</key>
-	<string>6.1.4</string>
+	<string>6.0</string>
 	<key>CFBundleLongVersionString</key>
-	<string>btrack~ 6.1.4, Copyright 2013 Cycling '74</string>
+	<string>btrack~  - </string>
 	<key>CFBundlePackageType</key>
 	<string>iLaX</string>
-	<key>CFBundleShortVersionString</key>
-	<string>6.1.4</string>
 	<key>CFBundleSignature</key>
 	<string>max2</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
-	<key>CFBundleVersion</key>
-	<string>6.1.4</string>
 	<key>CSResourcesFileMapped</key>
 	<true/>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>7D1014</string>
+	<string></string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>GM</string>
+	<string>14.5</string>
 	<key>DTSDKBuild</key>
-	<string>15E60</string>
+	<string>23F73</string>
 	<key>DTSDKName</key>
-	<string>macosx10.11</string>
+	<string>macosx14.5</string>
 	<key>DTXcode</key>
-	<string>0731</string>
+	<string>1540</string>
 	<key>DTXcodeBuild</key>
-	<string>7D1014</string>
+	<string>15F31d</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.11</string>
+	<key>LSRequiresCarbon</key>
+	<true/>
 </dict>
 </plist>
