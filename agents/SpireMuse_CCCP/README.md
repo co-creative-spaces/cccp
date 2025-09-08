@@ -48,7 +48,7 @@ Restart your Max after you install all libraries and adding the path of the abst
 - In your dataset_folder create a folder named audio
 - In the same folder, create a folder named data
 
-Please notice the no-caps. This folder should have audio files in the format of .wav, 16-bit, 44.1kHz
+Please notice the no-caps. The audio folder should have audio files in the format of .wav, 16-bit, 44.1kHz. The data folder will be populated during the training.
 
 If your files are in another type, you can easily convert them using Audacity:
 https://www.audacityteam.org/.
