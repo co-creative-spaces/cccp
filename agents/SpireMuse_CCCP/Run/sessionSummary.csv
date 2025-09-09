@@ -1,90 +1,54 @@
  0 Start session
- 113800 Change -
- 153800 Change -
- 191500 Change -
- 276600 Change -
- 305700 Change -
- 632300 Change -
- 792000 Change -
- 854100 End session
+ 239200 End session
  0 0
- 1 25000
- 2 33000
- 3 55900
- 4 101600
- 5 113600
- 6 113800
- 7 145700
- 8 153800
- 9 184700
- 10 191500
- 11 198700
- 12 276600
- 13 305700
- 14 561000
- 15 578000
- 16 582200
- 17 592800
- 18 604800
- 19 610400
- 20 617500
- 21 632300
- 22 650200
- 23 730300
- 24 749600
- 25 792000
- 26 799700
- 27 815600
- 28 842300
- 0 ElectricResistance 2 0.500 1.000 0.250 0.000 0.600 16 Stian Westerhus & Pale Horses - Don't Say That You Care_16_44 0.700 2
- 25000 ElectricResistance 1 0.500 1.000 0.250 0.000 0.600 16 Stian Westerhus & Pale Horses - Don't Say That You Care_16_44 0.700 2
- 33000 ElectricResistance 2 0.500 1.000 0.250 0.000 0.600 16 Stian Westerhus & Pale Horses - Don't Say That You Care_16_44 0.700 2
- 55900 ElectricResistance 1 0.500 1.000 0.250 0.000 0.600 16 Stian Westerhus & Pale Horses - Don't Say That You Care_16_44 0.700 2
- 101600 ElectricResistance 3 0.500 1.000 0.250 0.000 0.600 4 BI - FX01 0.700 2
- 111700 ElectricResistance 3 0.500 1.000 0.250 0.393 0.600 4 BI - FX01 0.700 2
- 112100 ElectricResistance 3 0.500 1.000 0.250 0.407 0.600 4 BI - FX01 0.700 2
- 112600 ElectricResistance 3 0.246 1.000 0.250 0.407 0.600 4 BI - FX01 0.700 2
- 112700 ElectricResistance 3 0.143 1.000 0.250 0.407 0.600 4 BI - FX01 0.700 2
- 112800 ElectricResistance 3 0.157 1.000 0.250 0.407 0.600 4 BI - FX01 0.700 2
- 113200 ElectricResistance 3 0.157 1.000 0.422 0.407 0.600 4 BI - FX01 0.700 2
- 113300 ElectricResistance 3 0.157 1.000 0.496 0.407 0.600 4 BI - FX01 0.700 2
- 113600 ElectricResistance 1 0.157 1.000 0.496 0.407 0.600 4 BI - FX01 0.700 2
- 113800 ElectricResistance 2 0.354 0.980 0.192 0.606 0.000 7 BI - FX04 0.700 2
- 145700 ElectricResistance 2 0.354 0.980 0.192 0.606 0.000 7 BI - FX04 0.700 2
- 153800 ElectricResistance 2 0.667 0.111 0.020 0.192 0.182 8 BI - Loops01 0.700 2
- 165200 ElectricResistance 2 0.667 0.111 0.020 0.192 0.182 6 BI - FX03 0.700 2
- 172700 ElectricResistance 2 0.667 0.111 0.020 0.192 0.182 6 BI - FX03 0.700 2
- 184700 ElectricResistance 1 0.667 0.111 0.020 0.192 0.182 6 BI - FX03 0.700 2
- 191500 ElectricResistance 3 0.616 0.545 0.859 0.061 0.869 6 BI - FX03 0.700 2
- 191700 ElectricResistance 3 0.616 0.545 0.859 0.061 0.869 7 BI - FX04 0.700 2
- 198700 ElectricResistance 1 0.616 0.545 0.859 0.061 0.869 7 BI - FX04 0.700 2
- 276600 ElectricResistance 1 0.091 0.798 0.727 0.364 0.061 9 BI - Loops02 0.700 2
- 290000 ElectricResistance 1 0.091 0.798 0.525 0.364 0.061 9 BI - Loops02 0.700 2
- 291200 ElectricResistance 1 0.091 0.798 0.525 0.364 0.363 9 BI - Loops02 0.700 2
- 291300 ElectricResistance 1 0.091 0.798 0.525 0.364 0.554 9 BI - Loops02 0.700 2
- 291400 ElectricResistance 1 0.091 0.798 0.525 0.364 0.613 9 BI - Loops02 0.700 2
- 291500 ElectricResistance 1 0.091 0.798 0.525 0.364 0.657 9 BI - Loops02 0.700 2
- 292100 ElectricResistance 1 0.091 0.452 0.525 0.364 0.657 9 BI - Loops02 0.700 2
- 292200 ElectricResistance 1 0.091 0.378 0.525 0.364 0.657 9 BI - Loops02 0.700 2
- 292300 ElectricResistance 1 0.091 0.349 0.525 0.364 0.657 9 BI - Loops02 0.700 2
- 292400 ElectricResistance 1 0.091 0.319 0.525 0.364 0.657 9 BI - Loops02 0.700 2
- 305700 ElectricResistance 3 0.061 0.717 0.818 0.616 0.485 9 BI - Loops02 0.700 2
- 306000 ElectricResistance 3 0.061 0.717 0.818 0.616 0.485 8 BI - Loops01 0.700 2
- 561000 ElectricResistance 2 0.061 0.717 0.818 0.616 0.485 8 BI - Loops01 0.700 2
- 566000 ElectricResistance 2 0.061 0.717 0.818 0.616 0.485 4 BI - FX01 0.700 2
- 578000 ElectricResistance 1 0.061 0.717 0.818 0.616 0.485 4 BI - FX01 0.700 2
- 582200 ElectricResistance 1 0.061 0.717 0.818 0.616 0.485 4 BI - FX01 0.700 2
- 592800 ElectricResistance 3 0.061 0.717 0.818 0.616 0.485 6 BI - FX03 0.700 2
- 604800 ElectricResistance 1 0.061 0.717 0.818 0.616 0.485 6 BI - FX03 0.700 2
- 610400 ElectricResistance 3 0.061 0.717 0.818 0.616 0.485 19 Vingelklang_null_16-44 0.700 2
- 617500 ElectricResistance 2 0.061 0.717 0.818 0.616 0.485 19 Vingelklang_null_16-44 0.700 2
- 632300 ElectricResistance 3 0.465 0.141 0.556 0.636 0.081 16 Stian Westerhus & Pale Horses - Don't Say That You Care_16_44 0.700 2
- 650200 ElectricResistance 1 0.465 0.141 0.556 0.636 0.081 16 Stian Westerhus & Pale Horses - Don't Say That You Care_16_44 0.700 2
- 730300 ElectricResistance 3 0.465 0.141 0.556 0.636 0.081 18 Unganisha_AfricanSunz_Death_Grip_on_Speed_16_44 0.700 2
- 737600 ElectricResistance 3 0.465 0.141 0.556 0.636 0.081 6 BI - FX03 0.700 2
- 749600 ElectricResistance 1 0.465 0.141 0.556 0.636 0.081 6 BI - FX03 0.700 2
- 792000 ElectricResistance 3 0.495 0.091 0.333 0.263 0.414 6 BI - FX03 0.700 2
- 792200 ElectricResistance 3 0.495 0.091 0.333 0.263 0.414 5 BI - FX02 0.700 2
- 799700 ElectricResistance 2 0.495 0.091 0.333 0.263 0.414 5 BI - FX02 0.700 2
- 815600 ElectricResistance 1 0.495 0.091 0.333 0.263 0.414 5 BI - FX02 0.700 2
- 842300 ElectricResistance 3 0.495 0.091 0.333 0.263 0.414 4 BI - FX01 0.700 2
+ 1 1900
+ 2 20100
+ 3 27500
+ 4 46100
+ 5 48500
+ 6 57100
+ 7 66700
+ 8 83400
+ 9 87300
+ 10 102500
+ 11 122200
+ 12 126900
+ 13 131800
+ 14 147800
+ 15 161100
+ 16 178500
+ 17 183700
+ 18 185900
+ 19 209800
+ 20 215300
+ 21 223300
+ 0 Materialopptak 1 0.500 1.000 0.250 0.000 0.600 21 Vingelklang_null_16-44 0.700 2
+ 1900 Materialopptak 2 0.500 1.000 0.250 0.000 0.600 21 Vingelklang_null_16-44 0.700 2
+ 20100 Materialopptak 1 0.500 1.000 0.250 0.000 0.600 21 Vingelklang_null_16-44 0.700 2
+ 27500 Materialopptak 2 0.500 1.000 0.250 0.000 0.600 21 Vingelklang_null_16-44 0.700 2
+ 34100 Materialopptak 2 0.500 1.000 0.250 0.000 0.600 17 Unganisha_AfricanSunz_Each_One_16_44 0.700 2
+ 46100 Materialopptak 1 0.500 1.000 0.250 0.000 0.600 17 Unganisha_AfricanSunz_Each_One_16_44 0.700 2
+ 48500 Materialopptak 1 0.500 1.000 0.250 0.000 0.600 17 Unganisha_AfricanSunz_Each_One_16_44 0.700 2
+ 57100 Materialopptak 3 0.500 1.000 0.250 0.000 0.600 3 Forvitring former 0.700 2
+ 65400 Materialopptak 3 0.500 1.000 0.250 0.000 0.600 3 Forvitring former 0.700 2
+ 66700 Materialopptak 2 0.500 1.000 0.250 0.000 0.600 3 Forvitring former 0.700 2
+ 83400 Materialopptak 1 0.500 1.000 0.250 0.000 0.600 3 Forvitring former 0.700 2
+ 87300 Materialopptak 2 0.500 1.000 0.250 0.000 0.600 3 Forvitring former 0.700 2
+ 98400 Materialopptak 2 0.500 1.000 0.250 0.000 0.600 3 Forvitring former 0.700 2
+ 102500 Materialopptak 1 0.500 1.000 0.250 0.000 0.600 3 Forvitring former 0.700 2
+ 110200 Materialopptak 1 0.500 1.000 0.250 0.000 0.600 3 Forvitring former 0.700 2
+ 122200 Materialopptak 1 0.500 1.000 0.250 0.000 0.600 3 Forvitring former 0.700 2
+ 126900 Materialopptak 3 0.500 1.000 0.250 0.000 0.600 3 Forvitring former 0.700 2
+ 131800 Materialopptak 2 0.500 1.000 0.250 0.000 0.600 3 Forvitring former 0.700 2
+ 137000 Residues_CCCP 2 0.500 1.000 0.250 0.000 0.600 3 Forvitring former 0.700 2
+ 147800 Residues_CCCP 1 0.500 1.000 0.250 0.000 0.600 3 Forvitring former 0.700 2
+ 161100 Residues_CCCP 2 0.500 1.000 0.250 0.000 0.600 3 Forvitring former 0.700 2
+ 178500 Residues_CCCP 3 0.500 1.000 0.250 0.000 0.600 0 Avleiringer - Impro #1 0.700 2
+ 183700 Residues_CCCP 1 0.500 1.000 0.250 0.000 0.600 0 Avleiringer - Impro #1 0.700 2
+ 185900 Residues_CCCP 2 0.500 1.000 0.250 0.000 0.600 0 Avleiringer - Impro #1 0.700 2
+ 195900 Residues_CCCP 2 0.500 1.000 0.250 0.000 0.600 0 Avleiringer - Impro #1 0.700 2
+ 203300 Residues_CCCP 2 0.500 1.000 0.250 0.000 0.600 0 Avleiringer - Impro #1 0.700 2
+ 209800 Residues_CCCP 1 0.500 1.000 0.250 0.000 0.600 0 Avleiringer - Impro #1 0.700 2
+ 215300 Residues_CCCP 1 0.500 1.000 0.250 0.000 0.600 0 Avleiringer - Impro #1 0.700 2
+ 223300 Residues_CCCP 2 0.500 1.000 0.250 0.000 0.600 0 Avleiringer - Impro #1 0.700 2
+ 235300 Residues_CCCP 2 0.500 1.000 0.250 0.000 0.600 0 Avleiringer - Impro #1 0.700 2
